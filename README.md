@@ -14,9 +14,9 @@ Create an Elevator workflow simulation, which can move up and down according to 
 
 ## My Approach
   1) Created classes objects for each part like, Elevator, Buidling, Passenger, so they were independed as possible
-  2) Each passenger object has origin floor number, name, and destination floor number  in next format, [0, passenger_name, 0->4 ] 
+  2) Each passenger object has origin floor number, name, and destination floor number  in next format, ``` [0, passenger_name, 0->4 ] ```
 
 ## Usage
   1) git clone https://github.com/ashyrbaew/elevator_algo.git
   2) pip install -r requirements.txt
-  3) Open python environment and import * elevator.py it will directly show next 20 steps
+  3) Open python environment and import * elevator.py it will directly show next 20 steps ``` from elevator import * ```
