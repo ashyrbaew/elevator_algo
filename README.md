@@ -12,7 +12,7 @@ Create an Elevator workflow simulation, which can move up and down according to 
 * First time the elevator is loaded with people from the first floor, and travels from the first (current) to the largest of those that passengers need. On the way,  
   elevator stops at those floors where passengers need to drop them off and pick up people who need to go in the same direction in which the elevator is moving.
 
-## My Approach
+## Solution Approach
   1) Created class objects for each part, like Elevator, Buidling, Passenger, so they were independed more as possible
   2) Each passenger object has origin-floor number, name, and destination-floor number  in next format, ``` [0, passenger_name, 0->4 ] ```
 
