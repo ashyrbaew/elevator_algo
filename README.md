@@ -1,4 +1,4 @@
-#"Simple Elevetor Algorithm"
+# Simple Elevetor Algorithm
 
 ## Objective:
 Create an Elevator workflow simulation, which can move up and down according to passengers destionation, and can hold maximum 5 people
@@ -13,10 +13,15 @@ Create an Elevator workflow simulation, which can move up and down according to 
   elevator stops at those floors where passengers need to drop them off and pick up people who need to go in the same direction in which the elevator is moving.
 
 ## My Approach
-  1) Created classes objects for each part like, Elevator, Buidling, Passenger, so they were independed as possible
-  2) Each passenger object has origin floor number, name, and destination floor number  in next format, ``` [0, passenger_name, 0->4 ] ```
+  1) Created class objects for each part, like Elevator, Buidling, Passenger, so they were independed more as possible
+  2) Each passenger object has origin-floor number, name, and destination-floor number  in next format, ``` [0, passenger_name, 0->4 ] ```
 
 ## Usage
   1) git clone https://github.com/ashyrbaew/elevator_algo.git
   2) pip install -r requirements.txt
-  3) Open python environment and import * elevator.py it will directly show next 20 steps ``` from elevator import * ```
+  3) Open python command line and import * elevator.py it will directly show next 20 steps ``` from elevator import * ```
+
+## Additional Notes
+  1) Spent time to build this app. 1.5 hours 
+  2) Decided to show 20 steps, so the reviewer can check if its working fine, but according to description it should run foreveer
+     so decied to make child branch and implement code with infinite loop,
